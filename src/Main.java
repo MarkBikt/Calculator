@@ -15,9 +15,6 @@ public class Main {
     }
     public static String calc(String input) throws Exception {
         String[] mathExpArr  = input.split(" ");
-        for(String e : mathExpArr){
-            System.out.println(e);
-        }
         if(mathExpArr.length != 3) {
             throw new Exception("Формат математической операции не удовлетворяет заданию!");
         }
